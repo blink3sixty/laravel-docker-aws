@@ -2,11 +2,9 @@ FROM php:8.2-apache
 
 LABEL maintainer="Mohsin Shah <m.shah@blinkpayment.co.uk>" version="1.0"
 
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-
 COPY --chown=www-data:www-data . /srv/app
 
-COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf 
+COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf
 
 WORKDIR /srv/app
 
