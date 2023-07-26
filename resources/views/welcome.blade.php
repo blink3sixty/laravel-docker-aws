@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>TEST ME  Laravel</title>
+        <title>Test</title>
 
         
     </head>
     <body class="antialiased">
-        <h1>TEST me</h1>
+        <h1>This is a new project</h1>
     </body>
 </html>
